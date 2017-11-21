@@ -1,0 +1,178 @@
+/* --------- PAGE BASE */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Georgia", serif;
+  font-size: 2.2rem;
+  line-height: 3.7rem;
+}
+
+
+/* --------- TEXT STYLES */
+
+
+h2, /* subhead */
+h3, /* byline */
+h4 { /* timeline header */
+  font-family: "Benton Sans", sans-serif;
+}
+
+.tick text { /* timeline axis year label */
+  letter-spacing: .3em;
+  font-size: 1.25em;
+}
+
+/* title */
+.red-bar h1,
+.dark-blue-bar h1,
+.light-blue-bar h1 {
+  padding: 0 0 0 10%;
+  color: #EEEEEE;
+}
+
+h2.subhead { /* subhead */
+  font-family: "Benton Sans", sans-serif;
+  font-size: 4.0rem;
+  font-weight: 400;
+
+}
+
+h3.byline { /* byline */
+  font-family: "Benton Sans", sans-serif;
+  font-size: 1.7rem;
+  /*font-weight: bold;*/
+  color: grey;
+  margin-bottom: 6rem;
+}
+
+h4.timeline-title { /* timeline header */
+  font-family: "Sentinel", serif;
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: #7C7C7C;
+  padding: 3rem 1rem 0 1rem;
+  margin-bottom: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+p.timeline-explainer { /* timeline text body */
+  font-family: "Benton Sans", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.1rem;
+  padding: 0.5rem 1rem 0 1rem;
+  margin-bottom: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+span.blue { /* color coding for timeline */
+  color: #044389;
+  font-weight: bold;
+}
+
+span.red { /* color coding for timeline */
+  color: #ED1C24;
+  font-weight: bold;
+}
+
+.tooltip p { /* timeline tooltip text body */
+  font-family: "Benton Sans", sans-serif;
+  line-height: 2.3rem;
+  margin: 0;
+  color: #EEEEEE;
+}
+
+.tooltip-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.tooltip-time {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.tooltip-text {
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+a { /* link */
+  color: #ED1C24;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+a:hover { /* active link */
+  color: #ED1C24;
+  text-decoration: underline;
+}
+
+a:visited { /* visited link */
+  color: #A51319;
+  text-decoration: none;
+}
+
+.img-caption { /* caption for images */
+  font-family: "Georgia", serif;
+  font-size: 1.5rem;
+  color: #8e8e8e;
+}
+
+span.img-credit { /* image credit in captions */
+  font-family: "Georgia", serif;
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #8e8e8e;
+}
+
+/* --------- PAGE ELEMENTS */
+
+img {
+  width: 100%;
+}
+
+.img-container {
+  margin-bottom: 6rem;
+  height: 100%;
+  width: 100%;
+}
+
+.timeline {
+  background-color: gainsboro;
+  margin-top: 400px;
+}
+
+.tooltip {
+  position: absolute;
+  width: 200px;
+  padding: 1rem 1rem 2rem 1rem;
+  border-radius: 3px
+}
+
+.red-bar {
+  position: absolute;
+  top: 550px;
+  background-color: #ED1C24;
+}
+
+.dark-blue-bar {
+  position: absolute;
+  top: 620px;
+  background-color: #044389;
+}
+
+.light-blue-bar {
+  position: absolute;
+  top: 690px;
+  background-color: #4F7BAC;
+}
+
+.sidebar {
+  padding-left: 2%
+}
